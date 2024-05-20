@@ -161,8 +161,10 @@
     justify-content: space-around;
 }
 
+/* dimension of album */
 .album-container>div{
     width: calc((100% / 6) - 20px);
+    text-align: center;
 }
 
 .album{
@@ -171,4 +173,18 @@
 
 .album img{
     width: 100%;
+}
+
+/* Album container short */
+.album-container.short{
+    width: 35%;
+}
+
+.album-container.short>div{
+    width: calc((100% / 2) - 20px);
+}
+
+/* ALBUM CONTAINER round */
+.round img{
+    border-radius: 100%;
 }
