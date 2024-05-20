@@ -1,0 +1,33 @@
+/* RESET DEFAULT */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* PLAYER OF APP */
+footer{
+    height: 90px;
+    background-color: #3d4343;
+}
+
+/* NAV AND PLAYLIST MENU' */
+nav{
+    width: 220px;
+    height: calc(100vh - 90px);
+    background-color: #000000;
+}
+
+/* CENTER MENU' */
+main{
+    width: 100%;
+    height: calc(100vh - 90px);
+    overflow-y: auto;
+    /* DEBUG */
+    background-color: tomato;
+}
+
+/* FLEX CONTAINER FOR UPPER MENU' */
+#flex-container{
+    display: flex;
+}
