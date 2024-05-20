@@ -24,18 +24,36 @@ main{
     width: 100%;
     height: calc(100vh - 90px);
     overflow-y: auto;
-    /* DEBUG */
-    background-color: tomato;
+    background-color: #141922;
 }
 
 /* FLEX CONTAINER FOR UPPER MENU' */
 #flex-container{
     /* flex */
     display: flex;
+    justify-content: center;
 }
 
-/* LOGO SETTINGS */
-#flex-container nav :first-child{
-    width: 90%;
-    padding: 5px;
+
+/* UPGRADE MENU  */
+#upgrade{
+    background-color: #000000;
+    opacity: 0.5;
+    height: 80px;
+    position: fixed;
+    width: calc(100% - 90px);
+    z-index: 1000;
 }
+
+#upgrade button{
+    color: #fafafa;
+    border: 2px solid #fafafa;
+    position: absolute;
+    border-radius: 25px;
+    padding: 10px 25px;
+    background-color: #141922;
+    right: 100px;
+    top: 20px;
+}
+
+/* VOICE OF MENU */

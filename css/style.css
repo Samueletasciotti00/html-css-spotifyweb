@@ -109,3 +109,66 @@
 }
 
 /* ////---/////----///// */
+
+/* LEFT NAV BAR */
+
+/* Logo settings */
+#logo div{
+    height: 20px;
+    width: 100%;
+}
+
+#logo div{
+    color: #fff;
+    height: 35px;
+}
+
+#logo div img{
+    width: 20%;
+}
+
+/* Playlist settings */
+
+/* PLAYLIST */
+#flex-container section h4,li,h2{
+    color: #fff;
+}
+
+/* MENU VOICE STYLE */
+#voice{
+    color: #606368;
+    
+}
+
+#voice ul{
+    list-style: none;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width: 60%;
+    /* flex */
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* ALBUM SETTINGS */
+.album-container{
+    width: 100%;
+    /* flex */
+    display: flex;
+    justify-content: space-around;
+}
+
+.album-container>div{
+    width: calc((100% / 6) - 20px);
+}
+
+.album{
+    width: 100%;
+}
+
+.album img{
+    width: 100%;
+}
