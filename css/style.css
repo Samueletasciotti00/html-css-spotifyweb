@@ -1,0 +1,111 @@
+/* FLEX PLAYER STYLES */
+#flex-player{
+    width: 100%;
+    height: 100%;
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Song Titol */
+#flex-player > :first-child{
+    /* flex */
+    display: flex;
+    align-items: center;
+    /* DEBUG */
+    width: 20%;
+    height: 60%;
+}
+
+/* Song Titol Immage */
+#flex-player img{
+   width: 50px;
+   margin-right: 10px;
+   margin-left: 10px;
+}
+
+/* Song Titol > Description */
+#flex-player h5{
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+#flex-player h6{
+    color: #6e6e6e;
+}
+
+
+
+
+
+
+/* Timeline Player */
+#flex-player > :nth-child(2){
+    /* DEBUG */
+    width: 40%;
+    height: 70%;
+}
+
+/* Playbuttons Bar */
+#player{
+    text-align: center;
+}
+
+#player i{
+    padding: 5px;
+    color: #fff;
+}
+
+/* Big Play */
+#player :nth-child(3){
+    font-size: 25px;
+}
+
+/* Progressive bar, number and timeline */
+.progress-bar{
+    color: #fff;
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Bar settings */
+.progress{
+    height: 3px;
+    width: 65%;
+    background-color: #6e6e6e;
+}
+
+.progress div{
+    height: 100%;
+    width: 30%;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+/* Audio Manager */
+#flex-player > :nth-child(3){
+    /* DEBUG */
+    width: 20%;
+    height: 60%;
+}
+
+#audio-mix{
+    color: #fff;
+    margin-right: 10px;
+    /* flex */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+/* ////---/////----///// */

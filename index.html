@@ -8,6 +8,13 @@
     <!-- css default -->
     <link rel="stylesheet" href="css/default.css">
 
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- font awesom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+
 </head>
 
 <!-- BODY -->
@@ -17,7 +24,29 @@
     <div id="flex-container">
 
         <!-- Left Bar -->
-        <nav></nav>
+        <nav>
+
+            <!-- LOGO -->
+            <div>
+                <img src="img/logo.svg" alt="">
+            </div>
+
+            <!-- Options -->
+            <section>
+
+                <!-- HOME -->
+                <div><i class="fa-solid fa-house" style="color : #fff;"></i> Home</div>
+
+                <!-- SEARCH -->
+                
+            </section>
+
+            <!-- Playlist -->
+            <section></section>
+
+            <!-- Account -->
+            <div></div>
+        </nav>
 
         <!-- Main content -->
         <main>
@@ -28,6 +57,86 @@
     <!-- Bottom -->
     <footer>
 
+        <!-- Flex Container for Player  -->
+        <div id="flex-player">
+
+            <!-- Song titol -->
+            <div>
+
+                <!-- Img -->
+                <div>
+                    <img src="img/sinister.jpeg" alt="song-cover">
+                </div>
+
+                <!-- Description -->
+                <div>
+                    <h5>Sinister</h5>
+
+                    <h6>Brano Nome</h6>
+                </div>
+
+                <!-- Icons -->
+                <div>
+                    <!-- Love -->
+                    <i class="fa-regular fa-heart"></i>
+
+                    <!-- Folder -->
+                    <i class="fa-regular fa-folder"></i>
+                </div>
+            </div>
+
+            <!-- Timeline Player -->
+            <div>
+
+                <!-- Buttons -->
+                <div id="player">
+                    <!-- shuffle -->
+                    <i class="fa-solid fa-shuffle"></i>
+                    <!-- back -->
+                    <i class="fa-solid fa-backward-step"></i>
+                    <!-- PLAY BUTTON -->
+                    <i class="fa-regular fa-circle-play"></i>
+                    <!-- next -->
+                    <i class="fa-solid fa-forward-step"></i>
+                    <!-- Rotate -->
+                    <i class="fa-solid fa-rotate-right"></i>
+                </div>
+
+                <!-- Progress Bar -->
+                <div class="progress-bar">
+
+                    <!-- Run Time -->
+                    <span>0:25</span>
+
+                    <!-- Bar -->
+                    <div class="progress">
+                        <div></div>
+                    </div>
+
+                    <!-- Total time -->
+                    <span>4:35</span>
+                </div>
+            </div>
+
+            <!-- Audio Manager -->
+            <div id="audio-mix">
+
+                <!-- Symbol -->
+                <div>
+                    <!-- list -->
+                    <i class="fa-solid fa-list"></i>
+                    <!-- Monitor -->
+                    <i class="fa-solid fa-desktop"></i>
+                    <!-- audio -->
+                    <i class="fa-solid fa-volume-high"></i>
+                </div>
+
+                <!-- Bar -->
+                <div class="progress">
+                    <div></div>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

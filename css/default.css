@@ -8,6 +8,7 @@
 /* PLAYER OF APP */
 footer{
     height: 90px;
+    width: 100%;
     background-color: #3d4343;
 }
 
@@ -29,5 +30,12 @@ main{
 
 /* FLEX CONTAINER FOR UPPER MENU' */
 #flex-container{
+    /* flex */
     display: flex;
+}
+
+/* LOGO SETTINGS */
+#flex-container nav :first-child{
+    width: 90%;
+    padding: 5px;
 }
