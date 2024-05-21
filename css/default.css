@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Montserrat;
 }
 
 /* PLAYER OF APP */
@@ -56,4 +57,20 @@ main{
     top: 20px;
 }
 
-/* VOICE OF MENU */
+section h2,h3{
+    color: white;
+}
+
+
+
+/* ICON SPOTIFY */
+#icon{
+    width: 75%;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+/* MARGIN OF MAIN */
+#margin-main{
+    margin-left: 20px;
+}
