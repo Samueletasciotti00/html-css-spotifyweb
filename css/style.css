@@ -169,6 +169,13 @@
     flex-wrap: wrap;
 }
 
+.album-container.long > div{
+    position: relative;
+}
+
+.album-container.short > div{
+    position: relative;
+}
 
 
 .album-comntainer.short{
@@ -182,6 +189,11 @@
 .album img{
     width: 100%;
 }
+
+.album.playb i{
+    padding-top: 45%;
+}
+
 
 span{
     color: gray;

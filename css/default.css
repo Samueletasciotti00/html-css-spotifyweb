@@ -94,9 +94,35 @@ hr{
 }
 
 /* hover */
-.absolute{
-    text-align: center;
-    font-size: 30px;
+.album.playb2:hover{
+    opacity: 0.5;
+}
+
+.album.playb:hover{
+    opacity: 0.5;
+}
+
+.album.playb{
+    position: absolute;
+    width: 100%;
+    height: 52%;
+    top: 0%;
+    font-size: 25px;
+    color: #fafafa;
+    background-color: #000000;  
+    opacity: 0;
+}
+
+.album.playb2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    font-size: 25px;
+    color: #fafafa;
+    background-color: #000000;  
+    opacity: 0;
+    padding-top: 45%;
 }
 
 
