@@ -93,6 +93,12 @@ hr{
     display: block;
 }
 
+/* hover */
+.absolute{
+    text-align: center;
+    font-size: 30px;
+}
+
 
 /* MEDIA QUERY */
 @media all and (max-width: 500px) {
@@ -145,8 +151,15 @@ hr{
     #logo div{
         height: 15px;
         width: 100%;
-        margin-left: 25px;
         margin-top: 1px;
+    }
+
+    #logo{
+        padding-left: 25px;
+    }
+
+    #logo > :first-child{
+        border-left: 2px solid green;
     }
 
    

@@ -151,6 +151,10 @@
     justify-content: space-around;
 }
 
+#voice ul > :first-child{
+    border-bottom: 2px solid green;
+}
+
 #voice ul li{
     color: gray;
     font-size: 12px;
@@ -214,7 +218,7 @@ span{
 #account{
     width: 150px;
     height: 60px;
-    bottom: 92px;
+    bottom: 120px;
     margin-left: 15px;
     color: #fff;
     position: absolute;
