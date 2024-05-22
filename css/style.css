@@ -119,7 +119,7 @@
 
 
 #logo div{
-    color: #fff;
+    color: gray;
     height: 35px;
 }
 
@@ -243,4 +243,26 @@ span{
 
 #account div img{
     height: 100%;
+}
+
+
+/*  HOVER */
+#upgrade button:hover{
+    padding: 15px 30px;
+    top: 10px;
+}
+
+#voice ul li:hover{
+    color: #fff;
+}
+#playlist ul li:hover{
+    color: #fff;
+}
+
+#logo div:hover{
+    color: #fff;
+}
+
+#logo > div:first-child{
+    color: #fff;
 }
