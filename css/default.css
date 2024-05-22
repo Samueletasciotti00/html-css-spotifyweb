@@ -61,16 +61,114 @@ section h2,h3{
     color: white;
 }
 
-
-
-/* ICON SPOTIFY */
-#icon{
-    width: 75%;
-    margin-top: 10px;
-    margin-left: 25px;
+/* ALBUM CONTAINER */
+.album-container.long{
+    min-width: calc(100% - 150px);
 }
+
+/* ALBUM SHORT */
+.album-container.short{
+    width: 90%;
+}
+
 
 /* MARGIN OF MAIN */
 #margin-main{
     margin-left: 20px;
+}
+
+hr{
+    margin-top: 10px;
+}
+
+.none-menu{
+    display: none;
+}
+
+.true{
+    display: inline-block;
+}
+
+.true-block{
+    display: block;
+}
+
+
+/* MEDIA QUERY */
+@media all and (max-width: 500px) {
+    nav{
+        width: 60px;
+    }
+
+    #account{
+        display: none;
+    }
+
+    .none-menu{
+        display: block; 
+    }
+
+    .true{
+        display: none;
+    }
+
+    #logo div{
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    /* LOGO FOR MOBILE */
+    #logo div img{
+        width: 50%;
+    }
+
+    /* UPGRADE BAR */
+    #upgrade{
+        width: calc(100% - 50px);
+    }
+}
+
+@media all and (min-width:500px) {
+
+    /* MIN WIDTH FOR LOGO DESKTOP */
+    #logo div img{
+        width: 15%;
+    }
+
+    /* MARGIN FOR LOGO DESKTOP */
+    #icon{
+        width: 75%;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+
+    #logo div{
+        height: 15px;
+        width: 100%;
+        margin-left: 25px;
+        margin-top: 1px;
+    }
+
+   
+}
+
+
+/* RESPONSIVE ALBUM */
+@media all and (max-width:768px) {
+    .album-container.long div{
+        width: 150px;
+    }
+}
+
+@media all and (min-width:769px) {
+     /* dimension of album */
+     .album-container>div{
+        width: calc((100% / 6) - 20px);
+        text-align: center;
+    }
+
+    /* Album container short */
+    .album-container.short{
+        width: 35%;
+    }
 }

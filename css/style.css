@@ -117,21 +117,13 @@
     margin-top: 20px;
 }
 
-#logo div{
-    height: 15px;
-    width: 100%;
-    margin-left: 25px;
-    margin-top: 1px;
-}
 
 #logo div{
     color: #fff;
     height: 35px;
 }
 
-#logo div img{
-    width: 15%;
-}
+
 
 /* Playlist settings */
 
@@ -170,13 +162,10 @@
     /* flex */
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-/* dimension of album */
-.album-container>div{
-    width: calc((100% / 6) - 20px);
-    text-align: center;
-}
+
 
 .album-comntainer.short{
     margin-left: 10px;
@@ -194,10 +183,7 @@ span{
     color: gray;
 }
 
-/* Album container short */
-.album-container.short{
-    width: 35%;
-}
+
 
 .album-container.short>div{
     width: calc((100% / 2) - 20px);
@@ -223,4 +209,22 @@ span{
     color: #fff;
     margin-left: 25px;
     margin-top: 25px;
+}
+
+#account{
+    width: 150px;
+    height: 60px;
+    bottom: 92px;
+    margin-left: 15px;
+    color: #fff;
+    position: absolute;
+}
+
+/* span account */
+#account div{
+    height: 25px;
+}
+
+#account div img{
+    height: 100%;
 }

@@ -32,24 +32,35 @@
 
             <!-- LOGO -->
             <div id="icon">
-                <img src="img/logo.svg" alt="">
+                <img class="true" src="img/logo.svg" alt="">
+                <img class="none-menu" src="img/logo-small.svg" alt="">
             </div>
 
             <!-- Options -->
             <section id="logo">
 
                 <!-- HOME -->
-                <div><img src="img/home.svg" alt=""> Home</div>
+                <div class="true"><img  src="img/home.svg" alt=""> Home</div>
+                <!-- home display none -->
+                <div class="none-menu"><img src="img/home.svg" alt=""></div>
+
+                <!-- ------------------------- -->
 
                 <!-- SEARCH -->
-                <div><img src="img/search.svg" alt=""> Cerca</div>
+                <div class="true"><img src="img/search.svg" alt=""> Cerca</div>
+                <!-- search display none -->
+                <div class="none-menu"><img src="img/search.svg" alt=""></div>
+
+                <!-- ------------------------ -->
 
                 <!-- LIBRARY -->
-                <div><img src="img/libreria.svg" alt=""> La tua libreria</div>
+                <div class="true"><img src="img/libreria.svg" alt=""> La tua libreria</div>
+                <!-- library display none -->
+                <div class="none-menu"><img src="img/libreria.svg" alt=""></div>
             </section>
 
             <!-- Playlist -->
-            <section id="playlist">
+            <section id="playlist" class="true">
                 <h4>PLAYLIST</h4>
 
                 <ul>
@@ -64,8 +75,18 @@
             </section>
 
             <!-- Account -->
-            <div>
-                
+            <div id="account">
+                <div>
+                    <img src="img/download.svg" alt="">
+                    installa app
+                </div>
+
+                <hr>
+
+                <div>
+                    <img src="img/download.svg" alt="">
+                    <span>John Doe</span>
+                </div>
             </div>
         </nav>
 
